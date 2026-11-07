@@ -1,0 +1,144 @@
+/* Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+}
+
+.logo h1 {
+    color: #007bff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+/* Section Styles */
+section {
+    padding: 2rem 0;
+}
+
+h2, h3, h4 {
+    color: #007bff;
+}
+
+/* Membership Styles */
+.membership-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.membership {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Service Styles */
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align:center ;
+}
+/*NAVIGATION STYLES*/
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav ul li a:hover,
+nav ul li a:focus-visible {
+    color: #ffc08a;
+    text-decoration: underline;
+}   
+
+nav ul li a.active {
+    color: #ffc08a;
+    font-weight: bold;
+}
+
+/*BUTTON STYLES*/
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    background-color: #0056b3;
+}
+
+nav ul li a.active {
+    color: #ffc08a;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: #ffc08a;
+    font-weight: bold;
+}
